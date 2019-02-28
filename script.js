@@ -2,7 +2,7 @@ var player = '';
 
 var componentsArray = [];
 
-
+//pista de juego
 var myGameArea = {
     canvas : document.createElement("canvas"),
     frame: 1,
@@ -13,8 +13,6 @@ var myGameArea = {
       console.log(this.ctx)
       this.canvas.style.border = "1px solid blue";
       document.getElementById('game-board').appendChild(this.canvas);
-      // this.frameNo = 0;
-      //this.interval = setInterval(updateCanvas(this.context, this.canvas), 20);
       this.interval = setInterval(game, 20);
     },
     clear: function() {
@@ -29,27 +27,28 @@ var myGameArea = {
       //this.context.drawImage(image,0,0, this.canvas.width, this.canvas.height); 
       }
   }
+
+  //pintamos componentes and player
+function game() {
+  player.draw()
+  //Pause()
+    myGameArea.frame += 1;
+  if(myGameArea.frame % 40 === 0)componentsArray.push(new Component(myGameArea.ctx));
+  player.movePlayer()
+  componentsArray.forEach(function(component) {
+    component.draw();
+    component.move();
+  })
+}
   
+//ejecutamos funciones
 window.onload = function(){
   myGameArea.start();
   myGameArea.clear();
   player = new Player(myGameArea.ctx);
   console.log(myGameArea.ctx)
-  // console.log('josue')
-}
+} 
 
-  function game() {
-    
-    player.draw()
-    //Pause()
-     myGameArea.frame += 1;
-    if(myGameArea.frame % 40 === 0)componentsArray.push(new Component(myGameArea.ctx));
-    player.movePlayer()
-    componentsArray.forEach(function(component) {
-      component.draw();
-      component.move();
-    })
-  }
   
 
 
