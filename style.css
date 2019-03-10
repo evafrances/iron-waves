@@ -1,0 +1,12 @@
+h1{
+    color: red;
+}
+body{
+    background: rgb(205, 144, 22);
+}
+.background{
+    text-align: center;
+    background: url('../img/coco.png') no-repeat 10px, url('../img/palm-tree2.png') no-repeat;
+    background-position: top, 120px; 
+    background-size: 12px, 90px;
+}
