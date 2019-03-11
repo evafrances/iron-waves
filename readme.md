@@ -1,4 +1,4 @@
-![Surf Time Logo](https://i.imgur.com/ola.png)
+![Surf Time Logo](https://img/ola.png)
 
 # JS | Pizza Builder
 
