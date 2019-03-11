@@ -125,25 +125,35 @@ Player.prototype.gameOver = function() {
 }
 
 Player.prototype.nextLevel = function() {
-  if(score <= 200 && this.howPoints == 100){
+  if(score <= points && this.howPoints == 100){
+    
     this.ctx.beginPath()
     this.ctx.font = "20px Helvetica";
     this.ctx.fillStyle = 'Black'
     this.ctx.fillText('NEXT LEVEL!', this.canvas.width / 2, this.canvas.height / 2)
     this.ctx.closePath()
     myGameArea.stop()
-    this.timeLevel2(shark);
+
+    setTimeout(function () {
+      myGameArea.start()
+    }, 5000);
+    this.timeLevel2();
+    this.howPoints = 0;
+
   }else{
     this.gameOver;
   }
 }
 
 //solo se ejecuta en NEXT LEVEL
-Player.prototype.timeLevel2 = function(shark) {
+Player.prototype.timeLevel2 = function() {
+  // this function receive an array of sharks
   //jugando con el tiempo, el frame
-  if(myGameArea.frame % 20 === 0){
-    shark.dx = shark.dx+ 0.4
-  }
+  myGameArea.difficult = 20;
+  points = 300;
+  // componentsArray.forEach(function(component) {
+  //   shark.dx = shark.dx + 0.4
+  // })
 }
 
 //pintamos tiempo en segundos

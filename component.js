@@ -7,16 +7,17 @@ function Component(ctx, canvas){
 //asigno velocidad
   this.dy = 0.1;
   this.width = Math.floor(Math.random() * 350);
-  this.height = 10;
-  this.color = "pink";
+  this.height = 40;
+  this.color = 000066;
 }
 
 Component.prototype.draw = function() {
-        this.ctx.beginPath();
-        this.ctx.fillStyle = this.color;
-        this.ctx.fillRect(this.x, this.y, this.width, this.height);
-        this.ctx.closePath();
-        //this.ctx.clearRect(0,0,this.canvas.width,this.canvas.height)
+    this.img = new Image();
+      this.img.src = 'img/wave.png';
+      this.ctx.beginPath();
+      //this.ctx.fillRect();
+      this.ctx.drawImage(this.img, this.x, this.y, this.width, this.height);
+    //this.ctx.clearRect(0,0,this.canvas.width,this.canvas.height)
     }
 
 Component.prototype.move = function(){

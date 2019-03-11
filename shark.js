@@ -7,19 +7,20 @@ function Shark(ctx, canvas) {
     this.dx = 0.1;
     this.width = 20;
     this.height = 20;
+    this.kiss = true;
     //this.color = "yellow";
   }
   
   Shark.prototype.draw = function() {
          if(this.y > 200){ 
           this.img = new Image();
-          this.img.src = 'img/shark2.svg';
+          this.img.src = 'img/shark2.png';
           this.ctx.beginPath();
           //this.ctx.fillRect();
           this.ctx.drawImage(this.img, this.x, this.y, this.width, this.height);
         }else{
             this.img = new Image();
-            this.img.src = 'img/shark.svg';
+            this.img.src = 'img/shark.png';
             this.ctx.beginPath();
             //this.ctx.fillRect();
             this.ctx.drawImage(this.img, this.x, this.y, this.width, this.height); 
@@ -57,13 +58,16 @@ function Shark(ctx, canvas) {
     player.y + player.height >= this.y && 
     this.y + this.height >= player.y
     ) {
-      if(player.y = this.y + this.height)
-      player.y = this.y + this.height;
-      player.points(this);
-      lives(player)
-      if(player.howlives == 0){   
-        player.gameOver();
+      if( this.kiss == true){  
+        if(player.y = this.y + this.height)
+        player.y = this.y + this.height;
+        player.points(this);
+        lives(player)
+        if(player.howlives == 0){   
+          player.gameOver();
+        }
       }
+      this.kiss = false;
   }
 }
   Shark.prototype.time = function() {

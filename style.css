@@ -2,11 +2,20 @@ h1{
     color: red;
 }
 body{
-    background: rgb(205, 144, 22);
+    margin: 0;
 }
 .background{
     text-align: center;
-    background: url('../img/coco.png') no-repeat 10px, url('../img/palm-tree2.png') no-repeat;
-    background-position: top, 120px; 
-    background-size: 12px, 90px;
+    background-color: rgb(215, 181, 146);
+    background-image: url(../img/coco.png), url(../img/palm-tree2.png), url(../img/palm-tree3.png), url(../img/palm-tree4.png), url(../img/cocotime.png), url(../img/cocotime.png), url(../img/cocotime.png), url(../img/cocotime.png);
+    background-repeat: no-repeat;
+    background-position: 173px 101%, -90px bottom, 110% 103%, -375px 50px, 0% 102%,17% 99%, 85% 102%, 83% 102%;
+    background-size: 66px, 500px, 500px, 900px, 63px, 66px, 66px;
+}
+#game-board{
+     margin: 120px;
+}
+h1{
+    width: 300px;
+    margin: 0 auto;
 }
