@@ -1,4 +1,4 @@
-![Ironhack Logo](../img/ola.png)
+![Surf Time Logo](https://i.imgur.com/ola.png)
 
 # JS | Pizza Builder
 
