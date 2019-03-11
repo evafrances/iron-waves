@@ -4,7 +4,7 @@
 
 ## Introduction
 
-[!(https://media.giphy.com/media/KDQrFgdpFKYAo/giphy.gif)]
+![](https://media.giphy.com/media/KDQrFgdpFKYAo/giphy.gif)
 
 We've got the munchies for a nice, fresh pie of pizza. Of course, we want to order online. After all, talking to a person will only delay the consumption of pizza.
 
