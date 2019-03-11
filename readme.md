@@ -1,10 +1,10 @@
 ![Surf Time Logo](https://img/ola.png)
 
-# JS | Pizza Builder
+# It´s Surf Time
 
 ## Introduction
 
-[![](http://i.giphy.com/e2AKpOvx2MREY.gif)](https://www.youtube.com/watch?v=04MJIXcZKPk)
+[![](https://media.giphy.com/media/KDQrFgdpFKYAo/giphy.gif)]
 
 We've got the munchies for a nice, fresh pie of pizza. Of course, we want to order online. After all, talking to a person will only delay the consumption of pizza.
 
