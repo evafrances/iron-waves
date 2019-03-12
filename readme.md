@@ -59,9 +59,10 @@ Only the best will pass to the rest of the tests.
 
 
 Among the winners of the **WSL** of all these years, we can see that some legends of surfing have been proclaimed champions on several occasions, as is the case of: Kelly Slater, world champion of surfing on 11 occasions and best suffist of all time; Mark Richards, who managed to win the first place 4 consecutive times; Tom Curren, Andy Irons and Mick Fanning winners on 3 occasions of the championship; or Tom Carroll and Damien Hardman who did it 2 times.
+
 The Basque Garazi Sánchez Ortún is once again among the 50 best surfers in the world,occupying the 35th place. On the other hand, Ainara Aymat, Ariana Ochoa and Lucía Martino are among the top 100, ranked 67, 83 and 94 respectively , out of a total of 363 participants.
 
 ```
 Thank you very much everyone for participating and congratulations for coming here!!!
-***GOOD LUCK EVERYONE***
+GOOD LUCK EVERYONE ![Texto alternativo](img/clover.png)
 ```
