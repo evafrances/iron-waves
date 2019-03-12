@@ -27,7 +27,6 @@ Only the best surfers will be gaining position and although reaching the goal is
 
 ```
 	I know you're a good surfer and you'll dodge sharks!
-	```
 
 ## Deliverables
 
