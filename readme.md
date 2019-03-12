@@ -30,7 +30,7 @@ Only the best surfers will be gaining position and although reaching the goal is
 ```
 
 
-## Step by step
+## Step by Step ..img/shark.png
 
 
 First, **TRAIN.** The morning of Saturday will be training.
@@ -62,5 +62,6 @@ Among the winners of the **WSL** of all these years, we can see that some legend
 The Basque Garazi Sánchez Ortún is once again among the 50 best surfers in the world,occupying the 35th place. On the other hand, Ainara Aymat, Ariana Ochoa and Lucía Martino are among the top 100, ranked 67, 83 and 94 respectively , out of a total of 363 participants.
 
 ```
-Thank you very much everyone for participating and congratulations for coming here
+Thank you very much everyone for participating and congratulations for coming here!!!
+***GOOD LUCK EVERYONE***
 ```
