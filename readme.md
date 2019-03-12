@@ -1,4 +1,5 @@
 ![Surf Time Logo](https://img/ola.png)
+![Surf Time Logo](img/ola.png)
 
 # It´s Surf Time
 
@@ -6,26 +7,27 @@
 
 ![](https://media.giphy.com/media/KDQrFgdpFKYAo/giphy.gif)
 
-We've got the munchies for a nice, fresh pie of pizza. Of course, we want to order online. After all, talking to a person will only delay the consumption of pizza.
+The elite of world surfing are faced each year in autumn on the south coast of the Landes to play the ninth stage of the world championships of surr, the Quiksilver Pro France. 
 
-There's only one problem: our local pizzeria's pizza builder **isn't working**. This time, the local pizzeria is in luck because their customer today is a Web developer. We always hear about how developers should give back to their community. I can't think of a more meaningful contribution than helping the community get pizza more easily.
+In 2019, ***the WSL*** (World Surf League) has been planned from October 3 to 13. That is, 11 days to see the best surfers in the world face in the waves of the Landes. During this same period, we will also be able to witness the female stage of the World Surfing Championships, the Roxy Pro France.
 
-## Requirements
+## Play and Imagine
 
-- [Fork this repo](https://guides.github.com/activities/forking/)
-- Clone this repo into your `~/code/labs`
-- Follow the instructions above to complete the exercise
+Imagine that you have spent a lot of time preparing for this global event held every year in Hossegor.
+Only the best surfers will be gaining position and although reaching the goal is difficult, here we come to play! So good luck and win!
 
-## Submission
+## How to play
 
-- Upon completion, run the following commands
+- You will start with 3 lives.
+- Handle with the arrow icons of the computer keyboard.
+- Surf the wave length to get points.
+- Do not get off the track.
+- Sharks take lives.
+- Do not exceed the time limit.
 
+```
+	I know you're a good surfer and you'll dodge sharks!
 	```
-	git add .
-	git commit -m "done"
-	git push origin master
-	```
-- Navigate to your repo and [create a Pull Request](https://help.github.com/articles/creating-a-pull-request/)
 
 ## Deliverables
 
