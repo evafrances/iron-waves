@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url("fonts/Roboto-Black.ttf");
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url("fonts/Roboto-Black.ttf");
+}
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url("fonts/Roboto-Black.ttf");
+}
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url("fonts/Roboto-Black.ttf");
+}
+body{
+    margin: 0;
+}
+.background{
+    text-align: center;
+    background-color: rgb(215, 181, 146);
+    background-image: url(../img/coco.png), url(../img/palm-tree2.png), url(../img/palm-tree3.png), url(../img/palm-tree4.png), url(../img/cocotime.png), url(../img/cocotime.png), url(../img/cocotime.png), url(../img/cocotime.png);
+    background-repeat: no-repeat;
+    background-position: 173px 101%, -90px bottom, 110% 103%, -375px 50px, 0% 102%,17% 99%, 85% 102%, 83% 102%;
+    background-size: 66px, 500px, 500px, 900px, 63px, 66px, 66px;
+}
+h1{
+    font-family: 'Roboto-Black';
+    margin: 0 auto;
+    padding: 30px  0;
+    color: rgb(29, 46, 54);
+}
+#game-board{
+    padding-bottom: 80px;
+}
+.line{
+    height: 25px;
+    margin-top: 12px;
+}
+.w{
+    background: rgb(234, 213, 173);
+}
+.b{
+    background: rgb(69, 144, 206);
+}
+.d{
+    background: rgb(177, 212, 251);
+}
+.start-game{
+    background: rgb(86, 114, 125);
+    color: rgb(234, 213, 173);
+    text-decoration: none;
+    padding: 24px;
+    border-radius: 6px;
+    border: 8px solid rgb(231, 93, 122);
+}
+.points{
+    width: 300px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.left-canvas{
+    float: left;
+    width: 60%;
+    text-align: right;
+    margin-top: 345px;
+    position: relative;
+}
+.left-canvas img{
+    width: 200px;
+}
+.left-canvas a{
+    font-family: 'Roboto-Regular';
+}
+.left-canvas p{
+    margin-top: 69px;
+    font-family: 'Roboto-Regular'; 
+}
+.oleaje{
+    position: absolute;
+    width: 63%;
+    bottom: 37px;
+}
+.iron{
+    width: 120px;
+}
+.right-canvas{
+    width: 40%;
+    background: url(../img/tablas.jpg) no-repeat center;
+    float: right;
+    background-size: 450px;
+    height: 700px;
+}
+.right-canvas img{
+    transform: rotate(106deg);
+}
+.clearfix{
+    clear: both;
+}
