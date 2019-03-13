@@ -1,7 +1,4 @@
-![Surf Time Logo](https://img/ola.png)
-![Surf Time Logo](img/ola.png)
-
-# It´s Surf Time
+# It´s Surf Time 🤙🏽🌊 
 
 ## Introduction
 
@@ -64,5 +61,5 @@ The Basque Garazi Sánchez Ortún is once again among the 50 best surfers in the
 
 ```
 Thank you very much everyone for participating and congratulations for coming here!!!
-GOOD LUCK EVERYONE ![Texto alternativo](..img/clover.png)
+GOOD LUCK EVERYONE !🍀
 ```
