@@ -27,7 +27,7 @@ Only the best surfers will be gaining position and although reaching the goal is
 ```
 
 
-## Step by Step ..img/shark.png
+## Step by Step ..
 
 
 First, **TRAIN.** The morning of Saturday will be training.
