@@ -8,7 +8,6 @@ function Component(ctx, canvas){
   this.dy = 0.1;
   this.width = Math.floor(Math.random() * 350);
   this.height = 30;
-  this.color = 000066;
 }
 
 Component.prototype.draw = function() {

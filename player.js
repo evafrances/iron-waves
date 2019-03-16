@@ -114,7 +114,7 @@ Player.prototype.gameOver = function() {
 }
 
 Player.prototype.nextLevel = function() {
-  if(score <= points && this.howPoints == 100){
+  if(score <= points && this.howPoints == 180){
     
     this.ctx.beginPath()
     this.ctx.font =  "40px Roboto-Regular";

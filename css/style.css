@@ -31,9 +31,6 @@ h1{
     padding: 30px  0;
     color: rgb(29, 46, 54);
 }
-#game-board{
-    padding-bottom: 80px;
-}
 .line{
     height: 25px;
     margin-top: 12px;
@@ -54,11 +51,6 @@ h1{
     padding: 24px;
     border-radius: 6px;
     border: 8px solid rgb(231, 93, 122);
-}
-.points{
-    width: 300px;
-    justify-content: center;
-    margin: 0 auto;
 }
 .left-canvas{
     float: left;
@@ -94,6 +86,26 @@ h1{
 }
 .right-canvas img{
     transform: rotate(106deg);
+}
+.your-score{
+    font-family: 'Roboto-Light';
+    width: 300px;
+    margin: 0 auto;
+    background: #fff;
+    color: rgb(29, 46, 54);
+}
+.your-score span{
+    font-family: 'Roboto-Bold';
+    color:rgb(231, 93, 122);
+}
+.control{
+    width: 140px;
+}
+.lc{
+    float: left;
+}
+.rc{
+    float: right;
 }
 .clearfix{
     clear: both;
